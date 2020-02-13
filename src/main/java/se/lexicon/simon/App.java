@@ -19,8 +19,8 @@ public class App
         System.out.println("Before calculation: ");
         System.out.println(result);
 
-        // Using our add method
-        add(number1, number2);
+        // Using our add method, and saving the result
+        result = add(number1, number2);
 
         System.out.println("After calculation: ");
         System.out.println(result);
@@ -29,9 +29,16 @@ public class App
         System.out.println(name);
     }
 
-    public static void add(int number1, int number2){
+    public static int add(int number1, int number2){
+
+        // creating a result, with no value.
+        int result;
+
         //Calculating
         result = number1 + number2;
+
+        //Sending back the result of calculation.
+        return result;
     }
 
 
