@@ -8,8 +8,6 @@ public class App
 {
 
     // creating variables, with default values
-    public static int number1 = 30;
-    public static int number2 = 20;
     public static int result;
     public static String name;
 
@@ -19,8 +17,8 @@ public class App
         System.out.println("Before calculation: ");
         System.out.println(result);
 
-        // Using our add method, and saving the result
-        result = add(number1, number2);
+        //calling a method inside a method. add() returns the result of the calculation.
+        System.out.println(add(30, 20));
 
         System.out.println("After calculation: ");
         System.out.println(result);
