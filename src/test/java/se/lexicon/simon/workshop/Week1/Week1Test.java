@@ -1,14 +1,14 @@
-package se.lexicon.simon;
+package se.lexicon.simon.workshop.Week1;
 
 import static org.junit.Assert.*;
-import static se.lexicon.simon.App.*;
+import static se.lexicon.simon.workshop.week1.Week1.*;
 
 import org.junit.Test;
 
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class Week1Test
 {
     /**
      * Rigorous Test :-)
@@ -71,7 +71,5 @@ public class AppTest
         assertFalse(actual);
 
     }
-
-
 
 }
