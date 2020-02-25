@@ -1,31 +1,41 @@
 package se.lexicon.simon.workshop.week3.model;
 
 public class Pen {
-   public String manufacturer;
-   public String name;
-   public String colour;
-   public String barcode;
+   private String manufacturer;
+   private String name;
+   private String colour;
+   private String barcode;
 
+
+   // Constructors
     public Pen(String tillverkare, String namn, String färg, String streckkod){
-        this.manufacturer = tillverkare;
-        this.name = namn;
-        this.colour = färg;
+        this(tillverkare, namn, färg);
         this.barcode = streckkod;
     }
 
     public Pen(String tillverkare, String namn, String färg){
-        this(tillverkare,namn,färg,"Unknown Barcode");
+        this();
+        this.manufacturer = tillverkare;
+        this.name = namn;
+        this.colour = färg;
     }
 
     public Pen(){
-        this("Unknown Maker", "Unknown Name", "Unknown Colour");
+        this.manufacturer = "Unknown Maker";
+        this.name = "Unknown Name";
+        this.colour = "Unknown Colour";
+        this.barcode = "Unknown Barcode";
+
     }
 
 
+
+    // Getters Methods
     public String getManufacturer(){
         //return manufacturer;
         return this.manufacturer;
     }
+
 
     public String getName(){
         return this.name;

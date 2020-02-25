@@ -1,4 +1,4 @@
-package se.lexicon.simon.workshop.Week1;
+package se.lexicon.simon.workshop.week1;
 
 import static org.junit.Assert.*;
 import static se.lexicon.simon.workshop.week1.Week1.*;
