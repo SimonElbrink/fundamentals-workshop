@@ -28,14 +28,11 @@ public class Pen {
 
     }
 
-
-
     // Getters Methods
     public String getManufacturer(){
         //return manufacturer;
         return this.manufacturer;
     }
-
 
     public String getName(){
         return this.name;
