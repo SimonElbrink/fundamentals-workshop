@@ -7,9 +7,10 @@ public class Pen {
    private String barcode;
 
 
-   // Constructors
+   // Constructors chaining
     public Pen(String tillverkare, String namn, String färg, String streckkod){
         this(tillverkare, namn, färg);
+
         this.barcode = streckkod;
     }
 
