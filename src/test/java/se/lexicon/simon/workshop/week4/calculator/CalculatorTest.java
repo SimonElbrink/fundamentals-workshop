@@ -1,10 +1,10 @@
-package se.lexicon.simon.workshop;
+package se.lexicon.simon.workshop.week4.calculator;
 
 import org.junit.Assert;
 import org.junit.Test;
-import se.lexicon.simon.workshop.calculatorv2.CalculatorImpl;
+import se.lexicon.simon.workshop.week4.calculator.CalculatorImpl;
 
-public class Calculatorv2Test {
+public class CalculatorTest {
 
 
     @Test

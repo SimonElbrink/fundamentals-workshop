@@ -1,4 +1,4 @@
-package se.lexicon.simon.workshop.calculatorv2;
+package se.lexicon.simon.workshop.week4.calculator;
 
 import java.util.Scanner;
 
